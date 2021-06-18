@@ -1,0 +1,44 @@
+
+
+
+<div class="row">
+     <div class="col-2">
+   <ul class="list-group">
+     <li class="list-group-item" >
+       <mat-card>Categories:
+         <p class="btn btn-block" (click)="ngOnInit()">AllCategories</p><hr/>
+       </mat-card>
+       <mat-card *ngFor="let d of product ">
+       <p class="btn btn-block" (click)="filter(d.p_category)" #d>
+         {{d.p_category}}
+     </p><hr/>
+     </mat-card>
+     </li>
+   </ul>
+     </div>
+   <div class="col-8" >
+     <div  class="row" >
+       <ng-container *ngFor="let f of filterdata " style="padding: 2rem">
+         <div class="col-4"  style="padding: 1rem">
+           <mat-card class="example-card" style="width: 10rem">
+             <mat-card-header>
+               <mat-card-title>Name:{{f.p_name}}</mat-card-title>
+               <mat-card-subtitle>Category:{{f.p_category}}</mat-card-subtitle>
+             </mat-card-header>
+             <img mat-card-image  [src]="f.image" style="height: 12rem;width: 10rem">
+             <mat-card-content>
+               AvaillableQuantity:{{f.p_availability}}
+               <br>Costs:{{f.p_cost}}
+             </mat-card-content>
+   <div>
+  
+     <button mat-stroked-button color="accent"  (click)="send(f,f.p_availability)">Add To Cart</button>
+   </div>
+   </mat-card>
+         </div>
+       </ng-container>
+     </div>
+   
+   </div>
+   </div>
+   

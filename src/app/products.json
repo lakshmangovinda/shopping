@@ -1,0 +1,38 @@
+[
+{
+"p_name":"Apple",
+"p_id":1,
+"p_cost":30,
+"p_availability":1,
+"p_details":"imported from swiss",
+"p_category":"premium",
+"image":"https://5.imimg.com/data5/YY/EN/MY-8155364/fresh-apple-500x500.jpg"
+},
+{
+"p_name":"Mango",
+"p_id":2,
+"p_cost":50,
+"p_availability":2,
+"p_details":"farmed at selam",
+"p_category":"tamilnadu",
+"image":"https://plantogram.com/wa-data/public/shop/products/55/06/655/images/1256/1256.750@2x.jpg"
+},
+{
+"p_name":"Banana",
+"p_id":3,
+"p_cost":5,
+"p_availability":0,
+"p_category":"tamilnadu",
+"image":"https://cdn.mos.cms.futurecdn.net/42E9as7NaTaAi4A6JcuFwG-1200-80.jpg"
+},
+{
+"p_name":"Orange",
+"p_id":4,
+"p_cost":25,
+"p_availability":1,
+"p_details":"imported from nagpur",
+"p_category":"premium",
+"image":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Orange-Fruit-Pieces.jpg/1200px-Orange-Fruit-Pieces.jpg"
+}
+]
+
